@@ -9,7 +9,7 @@ INTERVAL_MS = 60000
 STEP_DELAY_MS = 300     
 
 last_cycle = time.monotonic_ns() // 1_000_000
-state = 0  # 0 = čekání, 1 = návrat
+state = 0  
 
 while True:
     now = time.monotonic_ns() // 1_000_000
